@@ -11,3 +11,158 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  margin: 0;
+}
+.area1{
+  position: relative;
+  outline: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://i.imgur.com/TXLtiMy.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.call{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  border: 10px solid #4087f9;
+  background-color: #4087f9;
+  left: -350px;
+  top: 50px;
+  border-radius: 0 10% 10% 0;
+  opacity: 0.8;
+  color: yellow;
+}
+.call:hover{
+  transition: 1s;
+  left: 0px;
+}
+.area2{
+  position: relative;
+  outline: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(http://images6.fanpop.com/image/photos/36000000/Reign-francis-reign-36010061-2880-1800.jpg);
+  background-size: cover;
+}
+.call2{
+  width: 400px;
+  height: 260px;
+  position: absolute;
+  border: 10px solid #d8ba58;
+  background-color: #d8ba58;
+  left: -350px;
+  top: 50px;
+  border-radius: 0 10% 10% 0;
+  opacity: 0.8;
+  color: #000;
+}
+.call2:hover{
+  transition: 1s;
+  left: 0px;
+}
+.area3{
+  position: relative;
+  outline: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(http://images6.fanpop.com/image/photos/40500000/13-Reasons-Why-13-reasons-why-netflix-series-40517352-1920-1080.jpg);
+  background-size: cover;
+}
+.call3{
+  width: 400px;
+  height: 290px;
+  position: absolute;
+  border: 10px solid #252f44;
+  background-color: #252f44;
+  left: -350px;
+  top: 50px;
+  border-radius: 0 10% 10% 0;
+  opacity: 0.9;
+  color: #fff;
+}
+.call3:hover{
+  transition: 1s;
+  left: 0px;
+}
+.area4{
+  position: relative;
+  outline: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(http://images6.fanpop.com/image/photos/40200000/Riverdale-Cast-riverdale-2017-tv-series-40243224-1014-570.jpg);
+  background-size: cover;
+}
+.call4{
+  width: 400px;
+  height: 55px;
+  position: absolute;
+  border: 10px solid #d8ba58;
+  background-color: #d8ba58;
+  left: -350px;
+  top: 50px;
+  border-radius: 0 10% 10% 0;
+  opacity: 0.8;
+  color: purple;
+}
+.call4:hover{
+  transition: 1s;
+  left: 0px;
+}
+.area5{position: relative;
+  outline: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/2/a2/2a2dc5b4-a7a1-11e8-8b6d-0f2497df532e/5b8007962c39e.image.jpg?resize=1200%2C675);
+  background-size: cover;
+}
+.call5{
+  width: 400px;
+  height: 110px;
+  position: absolute;
+  border: 10px solid #974da5;
+  background-color: #974da5;
+  left: -350px;
+  top: 50px;
+  border-radius: 0 10% 10% 0;
+  opacity: 0.9;
+  color: #C0C0C0;
+}
+.call5:hover{
+  transition: 1s;
+  left: 0px;
+}
+.nav{
+/* outline: 5px solid skyblue; */
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
+.nav ul{
+/*   outline: 3px solid violet;  */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav ul li{
+/*   outline: 1px solid purple; */
+  width: 120px;
+  display: inline-block;
+}
+.nav ul li a{
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.nav ul li a:hover{
+  color: #fff;
+  background-color: black;
+}
